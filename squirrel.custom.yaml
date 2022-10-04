@@ -459,3 +459,9 @@ patch:
       no_inline: true
     co.zeit.hyper:
       ascii_mode: true
+    com.jetbrains.pycharm:
+      ascii_mode: true
+    com.jetbrains.pycharm.ce:
+      ascii_mode: true
+    com.raycast.macos:
+      ascii_mode: true
