@@ -47,7 +47,7 @@ import_tables:
   - luna_pinyin #主词库
   - luna_pinyin.sgmain #搜狗
   - luna_pinyin.poetry #诗词
-   
+
   - dicts/animal # 动物
   - dicts/caijing # 财经
   - dicts/food # 饮食
@@ -57,6 +57,8 @@ import_tables:
   - dicts/net # 网络流行语
   - dicts/renmingdiming # 人名地名
   - dicts/zhwiki # 维基百科
+
+  - dicts/private # 私有
 
 ...
 

@@ -33,6 +33,13 @@ local function translator(input, seg)
       --]]
       yield(Candidate("date", seg.start, seg._end, os.date("%Y年%m月%d日"), ""))
    end
+
+   if (input == "week") then
+    local weakTab = {'日', '一', '二', '三', '四', '五', '六'}
+    yield(Candidate("week", seg.start, seg._end, "周"..weakTab[tonumber(os.date("%w")+1)], ""))
+    local weakTab2 = {'天', '一', '二', '三', '四', '五', '六'}
+    yield(Candidate("week", seg.start, seg._end, "星期"..weakTab2[tonumber(os.date("%w")+1)], ""))
+    end
 end
 
 -- 将上述定义导出

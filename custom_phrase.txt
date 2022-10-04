@@ -25,7 +25,7 @@ HorizonZeroDawn	hzd	4
 地平线：黎明时分	hzd	2
 正在開會，一會給你回復：）	meet
 中州韻輸入法引擎	rime	2
-又双叒叕	yyy
+又双叒叕	yyyy
 http://rime.im/	rime	1
 Rime	rime	3
 ⌘	cmd Command

@@ -133,4 +133,16 @@ patch:
     enable_completion: false     # 是否启用英文输入联想补全
     enable_sentence: false
     initial_quality: -4           # 调整英文候选词的位置，如 -3 会更靠后
-    
+
+  # 固顶字：personal_public.txt
+  "engine/translators/@8": table_translator@personal_public
+  personal_public:
+    dictionary: ""
+    user_dict: personal_public
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    # 固顶字应该享有最高优先级。
+    # 但不与其他翻译器共同造句（所以不要配置完整编码的字词，只配置缩写）
+    # fixed 的权重应该比 pinyin 和 melt_eng 大。
+    initial_quality: 3
