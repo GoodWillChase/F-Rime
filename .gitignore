@@ -1,1 +1,12 @@
+# common
 .DS_Store
+.idea/
+.vscode/
+
+# squirrel
+build
+*.userdb
+sync
+trash
+user.yaml
+installation.yaml
