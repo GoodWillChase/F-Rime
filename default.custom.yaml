@@ -1,6 +1,6 @@
 patch:
   menu:
-    page_size: 6
+    page_size: 9
   schema_list:
   - schema: double_pinyin_flypy   # 小鹤雙拼
   - schema: luna_pinyin_simp      # 朙月拼音 简化字
