@@ -587,3 +587,9 @@ patch:
       ascii_mode: true
     pycharm64.exe:
       ascii_mode: true
+    openconsole.exe:
+      ascii_mode: true
+    powershell.exe:
+      ascii_mode: true
+    windowsterminal.exe:
+      ascii_mode: true
