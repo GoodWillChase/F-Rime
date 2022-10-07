@@ -83,6 +83,7 @@ vocabulary: essay-zh-hans
 爱	ai	3906018
 唉	ai	3344820
 哎	ai	2141602
+AI	ai	2141601
 挨	ai	231755
 矮	ai	172070
 艾	ai	161680
@@ -5638,6 +5639,7 @@ vocabulary: essay-zh-hans
 是	shi	142460771
 时	shi	14342995
 事	shi	4771989
+UI	shi	4771988
 使	shi	4248575
 市	shi	2266561
 式	shi	1397438

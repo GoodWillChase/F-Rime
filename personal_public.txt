@@ -10,8 +10,8 @@
 # 此行之后不能写注释
 
 AHK	ahk
-AI	ai
-Ai Search	as
+
+Ai Search	aisearch
 Airbnb	airbnb
 Airmail	airmail
 AirPods	airpods
@@ -57,7 +57,6 @@ Day	day
 Day One	day
 DEVONthink	dt
 Django	django
-Do	do
 Docker	docker
 Documents	documents
 DOM	dom
@@ -85,23 +84,18 @@ Gboard	gboard
 Gbps	gbps
 GFW	gfw
 Git	git
-GitHub	gh
 GitHub	github
 GitLab	gitlab
-GitLab	gl
 Go	go
 GoCoEdit	gocoedit
 Golang	golang
-GoodNotes	gn
 GoodNotes	goodnotes
 GoodWillChase	gwc
 goodwillchase	gwc
-Google	gg
-Google Drive	gd
-Google Keep	gk
-Google Photos	gp
-Google Voice	gv
-goto	goto
+Google	google
+Google Drive	gdrive
+Google Keep	gkeep
+oogle Voice	gvoive
 GTD	gtd
 Gyroscope	gyro
 HK	hk
@@ -142,14 +136,13 @@ KM	km
 KW	kw
 Launch Center Pro	lcp
 LaunchBar	launchbar
-Launcher	lc
+Launcher	launcher
 LCP	lcp
-LeetCode	lc
 LeetCode	leetcode
-lhie1	lh
-LightScreen	lights
+lhie1	lhie
+LightScreen	lscreen
 Logseq	logseq
-LongScreen	longs
+LongScreen	lscreen
 Mac	mac
 MacBook	macbook
 MacBook	mb
@@ -281,7 +274,6 @@ Twitter	twitter
 Twitterrific 	twitter
 TypeScript	ts
 Typora	typora
-UI	ui
 Ulysses	uly
 Unsplash	uns
 Unsplash	unsplash
@@ -315,5 +307,5 @@ WTF	wtf
 X.cat	xcat
 Xshell	xshell
 Yolanda	yolanda
-YouTube	yt
+YouTube	youtube
 Yu Writer	yuwriter
