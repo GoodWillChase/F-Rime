@@ -2,27 +2,318 @@
 # coding: utf-8
 #@/db_name  personal_public.txt
 #@/db_type	tabledb
-#
 # 一些单编码的置顶，固定少数缩写。
-#
 # 这个文件内的字词会占据最高权重（排在候选项的最前面）。
-#
 # 但不与其他翻译器互相造词，如果使用了完整编码，如「你ni」这样的，那么「你」这个字将无法参与造词，即自造词无法被记住
 # 所以建议只固定非完整编码的字词，「的de」应该改为「的d」，「是shi」应为「是s」，「仙剑xianjian」应为「仙剑xj」。
-#
-# version: "2022-09-27"
-#
+# version: "2022-10-07"
 # 此行之后不能写注释
 
-Go	go
-Golang	golang
-Hugo	hugo
-goto	goto
-domain	domain
-TODO	todo
-Dota	dota
-main	main
+AHK	ahk
+AI	ai
+Ai Search	as
+Airbnb	airbnb
+Airmail	airmail
+AirPods	airpods
+Airtable	airtable
+Alfred	alfred
+Alpha	alpha
+Alt	alt
 Amazon	amazon
-Python	python	1
+Anki	anki
+Annotable	at
+Apollo	apollo
+App	app
+App Store	appstore
+Apple	apple
+Apple Care	acpplecare
+Apple Store	applestore
+Apple Watch	applewatch
+ASAP	asap
+AutoHotKey	ahk
+Bear	bear
+beingseeing	being
+beingseeings	being
+beorg	beorg
+Beta	beta
+BT	bt
+Castro	castro
+Chase	chase
+Chrome	chrome
+Clash	clash
+Clash for Windows	cfw
+ClashX	clashx
+Clear	clear
+Clipboard	cb
+CodeHub	codehub
+Cool	cool
+cps-web	cpsweb
+CPS-Web	cpsweb
+Cross	cross
+CSS	css
+Ctrl	ctrl
+Darkroom	darkroom
+Day	day
+Day One	day
+DEVONthink	dt
+Django	django
+Do	do
+Docker	docker
+Documents	documents
+DOM	dom
+Done	done
+Dota	dota
+Drafts	drafts
+Dribbble	dri
+Dropbox	db
+Due	due
+Eagle	eagle
+Editorial	edt
+ES6	es
+eSpace	espace
+Evernote	evernote
+Face ID	faceid
+Facebook	fb
+Fantastical 2	fc
+Feedly	feedly
+Fenix	fenix
+Fiery Feeds	ff
+Flask	flask
+Fn	fn
+Fndroid	fndroid
+Gboard	gboard
+Gbps	gbps
+GFW	gfw
+Git	git
+GitHub	gh
+GitHub	github
+GitLab	gitlab
+GitLab	gl
+Go	go
+GoCoEdit	gocoedit
+Golang	golang
+GoodNotes	gn
+GoodNotes	goodnotes
+GoodWillChase	gwc
+goodwillchase	gwc
+Google	gg
+Google Drive	gd
+Google Keep	gk
+Google Photos	gp
+Google Voice	gv
+goto	goto
+GTD	gtd
+Gyroscope	gyro
+HK	hk
+House	house
+HR	hr
+HTML	html
+Hugo	hugo
+iA Writer	iawriter
+iCabMobile	icab
+iCloud	icloud
+iCloud Drive	icd
+ID	id
+If	if
+IFTTT	ifttt
+iMark	imark
+iMazing	imazing
+IMDb	imdb
+Inbox	inbox
+Inoreader	ino
+Instagram	ins
+Instapaper	ins
+iOS	ios
+IP	ip
+iPhone	iphone
+IT	it
+iTunes	itunes
+Jason	jason
 JavaScript	js
+JP	jp
+jQuery	jquery
 JS	js
+JSBox	jsbox
+JSON	json
+Keep	keep
+Keyboard Maestro	km
+Kindle	kindle
+KM	km
+KW	kw
+Launch Center Pro	lcp
+LaunchBar	launchbar
+Launcher	lc
+LCP	lcp
+LeetCode	lc
+LeetCode	leetcode
+lhie1	lh
+LightScreen	lights
+Logseq	logseq
+LongScreen	longs
+Mac	mac
+MacBook	macbook
+MacBook	mb
+MacBook Air	mba
+MacBook Pro	mbp
+MacStories	macstories
+ManageOne	manageone
+MarginNote	mn
+Markdown	md
+MarkEditor	markeditor
+Matrix	matrix
+Mbps	mbps
+Medium	medium
+Microsoft	ms
+MindNode	mn
+Mini	mini
+MITM	mitm
+MoneyWiz	moneywiz
+MongoDB	mongodb
+MOZE	moze
+MWeb	mweb
+MySQL	mysql
+NOMO	nomo
+NoSQL	nosql
+Notability	nb
+Note	note
+NOTE	note
+Notebox	nb
+Notion	notion
+nPlayer	nplayer
+Obsidian	obs
+Obsidian	obsidian
+OK	ok
+OmniFocus	of
+OneDrive	od
+OneNote	onenote
+Opener	opener
+Oracle	oracle
+OTA	ota
+Outlook	outklook
+Overcast	overcast
+P.S.	ps
+PC	pc
+PCalc	pcalc
+PDF	pdf
+Photoshop	ps
+Pico	pico
+Picsew	picsew
+Picture	pic
+Pin	pin
+Pinboard	pin
+Pinboard	pinboard
+Pinterest	pin
+Pocket	pocket
+Pocket Casts	pc
+PopClip	popclip
+PPHub	pphub
+PPT	ppt
+Pretext	pretext
+Price Tag	pt
+Proxy	proxy
+PS	ps
+PT	pt
+PyCharm	pycahrm
+Python	py
+Python	python
+Pythonista	py
+QQ	qq
+Quantumult	quan
+Quip	quip
+Quora	quora
+Reddit	reddit
+Redis	redis
+Reeder	reeder
+Resilio Sync	rs
+Roam	roam
+RSS	rss
+Scalers	scalers
+Scomper	scomper
+Setapp	setapp
+SG	sg
+Shadowrocket	sr
+Shadowsocks	ss
+Share Extension	se
+Share Sheet	sharesheet
+Shift	shift
+Shortcut	shortcut
+Shortcuts	shortcuts
+SimpleNote	sn
+Slack	slack
+Sorry	sorry
+Spark	spark
+SQLServer	sqlserver
+SS	ss
+SSD	ssd
+SSR	ssr
+Steam	steam
+Stiiitch	stiiitch
+Store	st
+Sublime	sublime
+Surface	surface
+Surfboard	surfboard
+Surge	sg
+Surge	surge
+TapEdit	tapedit
+Taskmator	tm
+TaskPaper	tp
+Teambition	tb
+Telegram	tg
+TestFlight	tf
+Textor	textor
+TF	tf
+TG	tg
+Things	things
+TickTick	tt
+TIM	tim
+Timepage	timepage
+TM	tm
+today 	td
+TODO	todo
+Todoist	td
+Todoist	todoist
+TR	tr
+Trello	trello
+Tumblr	tumblr
+Tweet	tweet
+Tweetbot	tweetbot
+Twitter	twitter
+Twitterrific 	twitter
+TypeScript	ts
+Typora	typora
+UI	ui
+Ulysses	uly
+Unsplash	uns
+Unsplash	unsplash
+URL	url
+URL Scheme	url
+US	us
+USB-C	usbtc
+U盘	upan
+VIP	vip
+Vivaldi	vivaldi
+VPN	vpn
+VPS	vps
+VS Code	vsc
+VS Code	vscode
+VSCode	vscode
+VUE	vue
+VVebo	vvebo
+Web	web
+WebDAV	webdav
+WeLink	welink
+WiFi	wifi
+Win 10	win
+Win 11	win
+Windows	win
+Workflow	wf
+WorkFlowy	wf
+Working Copy	wc
+Working Copy	workingcopy
+Worktile	worktile
+WTF	wtf
+X.cat	xcat
+Xshell	xshell
+Yolanda	yolanda
+YouTube	yt
+Yu Writer	yuwriter

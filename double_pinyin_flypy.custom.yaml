@@ -146,3 +146,13 @@ patch:
     # 但不与其他翻译器共同造句（所以不要配置完整编码的字词，只配置缩写）
     # fixed 的权重应该比 pinyin 和 melt_eng 大。
     initial_quality: 3
+
+  # 固顶字：personal_private.txt
+  "engine/translators/@9": table_translator@personal_private
+  personal_private:
+    dictionary: ""
+    user_dict: personal_private
+    db_class: stabledb
+    enable_completion: false
+    enable_sentence: false
+    initial_quality: 4
